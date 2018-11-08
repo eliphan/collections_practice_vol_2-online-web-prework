@@ -10,4 +10,5 @@ end
 def contain_a(array)
   new_array = []
   array.each do |element|
-    if element
+    if element.include? "a"
+       
