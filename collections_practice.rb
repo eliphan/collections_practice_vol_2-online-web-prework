@@ -13,4 +13,5 @@ def contain_a(array)
     if element.include? "a"
        new_array << element
      end
+     new_array
    end
