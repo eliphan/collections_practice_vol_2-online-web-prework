@@ -1,11 +1,10 @@
 # your code goes here
 def begins_with_r(array)
   flag = true
-  not_flag = false
   array.each do |element|
     if element.start_with?('r')
       flag
-    else not_flag
+    else flag = false
     end
   end
   flag
