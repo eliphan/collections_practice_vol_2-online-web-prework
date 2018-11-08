@@ -31,3 +31,6 @@ def contain_a(array)
   end
   new_array
 end
+
+def remove_non_strings(array)
+  
