@@ -45,5 +45,5 @@ end
 def merge_data
   my_hash = {cat: "Maru", dog: "Pluto"}
   my_other_hash = {bird: "Chippy", hamster: "Fluffy"}
-  my_hash.merge
-    
+  my_hash.merge(my_other_hash)
+end
