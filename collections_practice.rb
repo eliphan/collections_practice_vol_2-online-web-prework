@@ -19,3 +19,5 @@ def contain_a(array)
      end
      new_array
    end
+   
+  
