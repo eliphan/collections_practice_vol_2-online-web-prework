@@ -24,7 +24,7 @@ def contain_a(array)
    new_array = []
    
    array.each do |element|
-   if element.start_with?('wa')
+   if element..match(/wa/)
      new_array = element
     end
   end
