@@ -42,6 +42,6 @@ def remove_non_strings(array)
   new_array
 end
 
-def merge_data(key, value)
+def merge_data
  
 end
