@@ -21,7 +21,7 @@ def contain_a(array)
    end
    
  def first_wa(array)
-   new_array = []
+   new_array =nil
    
    array.each do |element|
    if element..match(/wa/)
