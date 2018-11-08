@@ -22,8 +22,9 @@ def contain_a(array)
    
  def first_wa(array)
    new_array = []
+   
    array.each do |element|
-    new_array << element if element.start_with?('wa')
+    new_array << element if element.start_with?("wa")
     end
   end
   new_array.first
