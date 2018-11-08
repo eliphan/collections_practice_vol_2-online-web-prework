@@ -21,10 +21,10 @@ def contain_a(array)
    end
    
  def first_wa(array)
-   new_array =nil
+   new_array = []
    
    array.each do |element|
-   if element.start_with?("wa")
+   if element.match
      new_array = element
      break
     end
