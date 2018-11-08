@@ -42,7 +42,8 @@ def remove_non_strings(array)
   new_array
 end
 
-def count_elements(array)
-  new_array = []
-  array.each do |element|
+def merge_data
+  my_hash = {cat: "Maru", dog: "Pluto"}
+  my_other_hash = {bird: "Chippy", hamster: "Fluffy"}
+  my_hash.merge
     
