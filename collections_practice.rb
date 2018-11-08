@@ -6,3 +6,8 @@ def begins_with_r(array)
   end
   flag
 end
+
+def contain_a(array)
+  new_array = []
+  array.each do |element|
+    
