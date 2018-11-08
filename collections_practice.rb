@@ -33,4 +33,6 @@ def contain_a(array)
 end
 
 def remove_non_strings(array)
-  
+  new_array = []
+  array.each do |element|
+    
