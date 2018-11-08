@@ -20,4 +20,9 @@ def contain_a(array)
      new_array
    end
    
-  
+ def first_wa(array)
+   new_array = []
+   array.each do |element|
+    new_array << element if element.start_with?('wa')
+    end
+end
