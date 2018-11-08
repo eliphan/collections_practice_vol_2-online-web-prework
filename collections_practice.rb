@@ -42,7 +42,7 @@ def remove_non_strings(array)
   new_array
 end
 
-def merge_data
+def merge_data(key, value)
   my_hash = {cat: "Maru", dog: "Pluto"}
   my_other_hash = {bird: "Chippy", hamster: "Fluffy"}
   my_hash.merge(my_other_hash)
