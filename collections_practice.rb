@@ -25,7 +25,7 @@ def contain_a(array)
    
    array.each do |element|
     new_array << element if element.start_with?("wa")
-    end
+    
   end
   new_array.first
 end
