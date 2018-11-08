@@ -4,3 +4,4 @@ def begins_with_r (array)
     if tool.start_with?("r")
       return true
     end
+  end
