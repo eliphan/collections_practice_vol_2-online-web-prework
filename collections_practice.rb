@@ -2,7 +2,7 @@
 def begins_with_r(array)
   flag = " "
   array.each do |tool|
-    if tool.start_with?("r")
+    if tool == tool.start_with?("r")
     flag = true
     
   end
