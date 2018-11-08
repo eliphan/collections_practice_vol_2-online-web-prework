@@ -11,4 +11,6 @@ def contain_a(array)
   new_array = []
   array.each do |element|
     if element.include? "a"
-       
+       new_array << element
+     end
+   end
