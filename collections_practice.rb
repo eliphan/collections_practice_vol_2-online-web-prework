@@ -35,4 +35,9 @@ end
 def remove_non_strings(array)
   new_array = []
   array.each do |element|
-    
+    if element.is_a?(String)
+      new_array << element
+    end
+  end
+  new_array
+end
