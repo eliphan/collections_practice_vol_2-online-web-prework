@@ -5,5 +5,5 @@ def begins_with_r(array)
     if tool[0] == "r"
       flag = true
    end 
-   flag
+    flag
   end
